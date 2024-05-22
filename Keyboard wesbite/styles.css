@@ -1,0 +1,60 @@
+@font-face{
+    src: url(fonts/SourceCodePro-Italic-VariableFont_wght.ttf);
+    font-family: Source-Code-Pro;
+}
+@font-face {
+    src: url(fonts/CherryBombOne-Regular.ttf);
+    font-family: Cherry-Bomb-One;
+}
+body{
+    background: linear-gradient(to bottom right,#9969C7,#804FB3,#6A359C);
+    height: 100vh;
+    padding: 50px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    font-family: Cherry-Bomb-One;
+    color: rgb(227,232,239);
+    font-size: 50px;
+    transform: translateY(-7px);
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: transform 0.3s;
+}
+nav ul li:hover{
+    transform: translateY(-10px);
+}
+nav ul li a{
+    color: rgb(151,163,182);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Source-Code-Pro, sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(227,232,239);
+}
+button{
+    color: rgb(4,7,17);
+    border: none;
+    background: rgb(227,232,239);
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-family: Source-Code-Pro;
+    font-size: large;
+}
+button:hover{
+    transform: scale(1.3);
+}
